@@ -7,5 +7,8 @@ Kubernetes
 
 GoLang
 
+Rancher 
+  installing HA rancher
+
 Terminal
   ufw - firewall port configuration
