@@ -8,3 +8,4 @@ Kubernetes
 GoLang
 
 Terminal
+  ufw - firewall port configuration
