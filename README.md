@@ -12,3 +12,6 @@ Rancher
 
 Terminal
   ufw - firewall port configuration
+
+Docker
+  Change default location of docker storage -- https://sanenthusiast.com/change-default-image-container-location-docker/
