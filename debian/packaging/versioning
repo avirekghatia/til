@@ -1,0 +1,14 @@
+#Versioning strategy
+After reading numerous blogs and following various people on Twitter, I came to a conclusion that the versioning has many ideas
+which have been implemented by different people in different ways. Major projects like Debian have deviced their own strategy
+to version artifacts in <major>.<minor>.<patch>~<RELEASE_ELIGIBILITY>_<arch>.<extension>. This is something followed in most of
+the major projects. This standard is in use since a long time and widely accepted and understood. 
+Debian has a versioning helper called #debchange. Debchange simplifies creating a new release version for your debian package
+by changing the changlog file.
+
+Changelog file is very important part of the versioning strategy. The changelog file describes the past changes and determines
+the version for the debian package on build. The first line of the changelog decides the version for the debian package. This
+line is followed by the description of things that changed since the last version. The changelog file looks kind of like the 
+git log output. 
+The versioning for Debian packages is an interesting topic which I dived into to solve a problem of versioning at work.
+I wanted to 
